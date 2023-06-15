@@ -37,6 +37,9 @@
     background: url(imagens/matrix-fundo2.jpg);
   }
 
+ 
+  
+
   .frase{
     font-family: 'Allerta Stencil', sans-serif;
   }
@@ -68,6 +71,10 @@
     position: fixed;
 }
 
+
+  
+
+
 #navbar-container {
     width: 80%;
     height: 100%;
@@ -81,6 +88,12 @@
     display: flex;
     list-style: none;
     text-transform: uppercase;    
+}
+
+@media screen and (max-width:  678px){
+  #navbar-items{
+    display: none;
+  }
 }
 
 #navbar-items li{
@@ -101,14 +114,36 @@
 }
 
 .Adafoto1{
-  height: 20%;
-  width: 20%;
+  height: 30%;
+  width: 30%;
   display: flex;
   border-radius: 50%;
   margin: 20px;
   
  
 }
+
+@media screen and (max-width:  678px){
+#page2{
+  display: block;
+  text-align: center;
+  
+}
+
+  .Adafoto1{
+      width: 40%;
+      display: block;
+      margin-left: 30%;
+      
+  }
+  .page2-text{
+    display: block;
+    text-align: center;
+  }
+  #page2container{
+    display: block;
+    text-align: center;}
+  }
 
 .content{
     display: flex;
