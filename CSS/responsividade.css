@@ -1,0 +1,95 @@
+@media screen and (max-width:  678px){
+    #navbar-items{
+      display: none;
+      
+    }
+  
+    #page2{
+      display: block;
+      text-align: center;
+      
+    }
+    
+    .Adafoto1{
+          width: 40%;
+          display: block;
+          margin-left: 30%;
+          
+      }
+    .page2-text{
+        display: block;
+        text-align: center;
+      }
+
+    #page2container{
+        display: block;
+        text-align: center;}
+      
+    .content{
+      display: flex;
+      height: fit-content;
+      justify-content: center;
+      margin-right: 0px;
+      margin-left: 5px;
+      margin-top: 25px;
+      
+  }
+  
+  #content-container {
+    display: flex;
+    flex-direction: column;
+      width: 80%;
+      height: fit-content;
+  }
+  
+    .big-text1{
+      margin: 0 auto;
+      padding-left: 25px;
+      padding-right: 25px ;
+    }
+    
+    #images-ada-maquina{
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+    }
+  
+    .adafoto2{
+      width: 150px;
+     margin: 0 auto;
+      
+    }
+  
+    .image-maquina{
+      margin: 25px;
+    }
+  
+    .footer__texto{
+      
+      padding: 15px;
+      text-align: center;
+    }
+    #footer{
+      height: 100px;
+     
+    }
+  
+    .history{
+      margin: 0 auto;
+      padding-right: 25px;
+      padding-left: 25px;
+      margin-bottom: 35px;
+    }
+  
+    #video{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+     width: 90%;
+      
+      
+      margin-bottom: 50px;
+    }
+  
+}
